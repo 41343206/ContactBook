@@ -36,9 +36,27 @@
 *.exe
 *.out
 *.app
+ContactBook
 
 # debug information files
 *.dwo
 
-*.pro.user
-*.pro.user.*
+# Qt specific
+Makefile*
+!Makefile.am
+*.pro.user*
+*.qmake.stash
+.qmake.stash
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+build/
+debug/
+release/
+.qtc_clangd/
+
+# Qt User files
+*.user
+*.autosave
