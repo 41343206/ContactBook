@@ -39,3 +39,22 @@
 
 # debug information files
 *.dwo
+
+# Qt specific
+Makefile*
+!Makefile.am
+*.pro.user*
+*.qmake.stash
+.qmake.stash
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.moc
+build/
+debug/
+release/
+.qtc_clangd/
+
+# Qt User files
+*.user
+*.autosave
